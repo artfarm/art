@@ -94,7 +94,10 @@ header {
     flex-flow: column;
     text-align: center;
 }
-
+.user {
+        height: 300px;
+        background: red;
+    }
 header .user .name {
     font-size: 3.5rem;
     color: #fff;
