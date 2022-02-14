@@ -80,7 +80,7 @@
         color: var(--gray);
     }
     
-    .header {
+    header {
         position: fixed;
         top: 0;
         left: 0;
@@ -101,26 +101,26 @@
         background: black;
     }
     
-    .header .user .name {
+    header .user .name {
         font-size: 3.5rem;
         color: #fff;
     }
     
-    .header .user .post {
+    header .user .post {
         font-size: 2rem;
         color: #eee;
     }
     
-    .header .navbar {
+    header .navbar {
         width: 100%;
     }
     
-    .header .navbar ul {
+    header .navbar ul {
         list-style: none;
         padding: 1rem 3rem;
     }
     
-    .header .navbar ul li a {
+    header .navbar ul li a {
         display: block;
         padding: 1rem;
         margin: 1.5rem 0;
@@ -130,7 +130,7 @@
         border-radius: 5rem;
     }
     
-    .header .navbar ul li a:hover {
+    header .navbar ul li a:hover {
         background: var(--gray);
     }
     
@@ -395,13 +395,13 @@
     }
     
     @media (max-width:991px) {
-        .header {
+        header {
             left: -120%;
         }
         #menu {
             display: block;
         }
-        .header.toggle {
+        header.toggle {
             left: 0%;
         }
         body {
@@ -416,7 +416,7 @@
     }
     
     @media (max-width:400px) {
-        .header {
+        header {
             width: 100vw;
         }
         .heading {
