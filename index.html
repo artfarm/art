@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARTFARM</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="musicstyle.css">
+
+</head>
+
+<body>
+
+
+    <!-- header section starts  -->
+
+    <header>
+        <label id="dark-change"></label>
+
+        <div class="user">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/edited.jpg" width="200px" height="80px">
+                </a>
+            </div>
+            <h3 class="name">More coming soon</h3>
+            <p class="post">...question papers and stuff</p>
+        </div>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">home</a></li>
+                <li><a href="#library">library</a></li>
+                <li><a href="#feedback">feedback</a></li>
+            </ul>
+        </nav>
+
+
+        <!-- music section starts -->
+<div class="music-box">
+        <h1>Music Player</h1>
+
+        <div class="music-container" id="music-container">
+            <div class="music-info">
+                <h4 id="title"></h4>
+                <div class="progress-container" id="progress-container">
+                    <div class="progress" id="progress"></div>
+                </div>
+            </div>
+
+            <audio src="music/bitch.mp3" id="audio"></audio>
+
+            <div class="img-container">
+                <img src="images/edited.jpg" alt="music-cover" id="cover" />
+            </div>
+            <div class="navigation">
+                <button id="prev" class="action-btn">
+          <i class="fas fa-backward"></i>
+        </button>
+                <button id="play" class="action-btn action-btn-big">
+          <i class="fas fa-play"></i>
+        </button>
+                <button id="next" class="action-btn">
+          <i class="fas fa-forward"></i>
+        </button>
+            </div>
+        </div>
+    
+    </div>
+        <!-- music section ends -->
+
+    </header>
+
+    <!-- header section ends -->
+
+    <div id="menu" class="fas fa-bars"></div>
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <h3>HI THERE !</h3>
+        <h1>This is <span>ArtFarm</span></h1>
+        <p>We are an organization here to help you. Providing relevant documents to help you through school or your future endevors
+        </p>
+
+    </section>
+
+    <!-- home section ends -->
+
+
+    <!-- portfolio section starts  -->
+
+    <section class="portfolio" id="library">
+
+        <h1 class="heading"> my <span>Library</span> </h1>
+
+        <div class="box-container">
+<center>
+            <div class="box">
+                <a href="pdf/ThinkandGrowRichebook.pdf" download>
+                         ThinkandGrowRichebook
+                    </a>
+            </div>
+        
+            <div class="box">
+                <a href="pdf/The Subtle Art Of Not Giving A Fuck.pdf" download>
+                         The Subtle Art Of Not Giving A Fuck
+                    </a>
+            </div>
+
+            <div class="box">
+                <a href="pdf/The Millionaire Next Door [Book]-MANTESH.PDF.pdf" download>
+                         The Millionaire Next Door [Book]-MANTESH.PDF
+                    </a>
+            </div>
+        </center>
+        </div>
+
+    </section>
+
+    <!-- portfolio section ends -->
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="feedback">
+
+        <h1 class="heading"> <span>Feed</span>back</h1>
+
+        <div class="row">
+
+            <div class="content">
+
+                <h3 class="title">Help us improve</h3>
+
+                <div class="info">
+                    <h3> <i class="fas fa-envelope"></i> Leave a suggestion</h3>
+                </div>
+
+            </div>
+
+            <form action="https://formsubmit.co/tgartfarm@gmail.com" method="POST">
+
+                <input type="text" placeholder="name" class="box">
+                <input type="email" placeholder="email" class="box">
+                <input type="text" placeholder="project" class="box">
+                <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+                <button type="submit" class="btn"> send <i class="fas fa-paper-plane"></i> </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- contact section ends -->
+
+
+    <!-- scroll top button  -->
+
+    <a href="#home" class="top">
+        <img src="images/scroll-top-img.png" alt="">
+    </a>
+
+
+
+
+
+
+
+
+
+    <!-- jquery cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+    <script src="musicscript.js"></script>
+<center>
+
+  <footer>
+            <p class="pfooter">Thank you for visiting</p>
+        </footer>
+        </center>
+
+</body>
+
+</html>
